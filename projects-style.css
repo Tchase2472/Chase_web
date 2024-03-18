@@ -1,0 +1,193 @@
+body{
+
+    margin: 0;
+    width: 100vw;
+    height: 100hv;
+    padding: 0;
+    overflow: hidden;
+
+
+    background-image: url("./assets/dark_project.jpg");
+    
+}
+
+html{
+
+    font-size: 16px;
+}
+
+a{
+
+    color: white;
+    text-decoration: none;
+    
+    
+    
+}
+
+a:hover{
+
+    
+    color: gray;
+}
+
+.navbar-list{
+
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    list-style: none;
+    font-family: Goldman;
+}
+
+.circle{
+
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    background: linear-gradient(to bottom, #393939 0%, #151515 100%);
+    position: relative;
+    margin-left: 5rem;
+    margin-top: 4rem;
+    color: white;
+    /*border: 2px solid red;*/
+}
+
+div:before{
+
+    content: '';
+    width: 106px;
+    height: 106px;
+    border-radius: 53px;;
+    background: red;
+    border: 1px solid black;
+    position: absolute;
+    opacity: .4;
+    left: 7px;
+    top: 7px;
+}
+
+div:after{
+
+    content: '';
+    width: 80px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255, 255, 255,0) 100%);
+    position: absolute;
+    transform: rotate(-18deg);
+    left: 13px;
+    top: 9px;
+}
+
+.boids{
+
+    color: white;
+    position: absolute;
+    font-family: Goldman;
+    left: 7.3rem;
+    top: 8rem;
+    z-index: 1;
+}
+
+.solarSystem{
+
+    color: white;
+    position: absolute;
+    font-family: Goldman;
+    left: 5.3rem;
+    top: 20rem;
+    z-index: 1;
+    font-size: .7;
+    /*border: 2px green solid;*/
+
+}
+
+.LTree{
+    color: white;
+    display: absolute;
+    font-family: Goldman;
+    position: absolute;
+    z-index:1;
+    top: 31rem;
+    left: 7rem;
+}
+
+
+
+.text{
+
+    width: 53rem;
+    height: 30rem;
+    padding: 1.5rem;
+    
+    position: absolute;
+    left: 18rem;
+    top: 8rem;
+    color: white;
+    z-index: 1;
+    font-family: Goldman;
+    font-size: 1.5rem;
+    border-radius: 20px;
+
+}
+
+.transparent{
+
+    width: 53.5rem;
+    height: 30rem;
+    /*border: 3px solid green;*/
+    position: absolute;
+    left: 18rem;
+    top: 7rem;
+
+    background: red;
+    opacity: .5;
+    border-radius: 30px;
+}
+
+@media(max-width: 800px){
+
+   .circle{
+
+    margin-left: 2rem;
+
+   }
+  
+   .button-text{
+
+        left: -18.15rem;
+   }
+
+   .boids{
+
+        margin-left: -18rem;
+   }
+
+   .solarSystem{
+
+        margin-left: -18rem;
+   }
+
+   .LTree{
+
+        margin-left: -18rem;
+   }
+
+   .text{
+
+        left: 13rem;
+        width: 12rem;
+        height: 35rem;
+        font-size: 1rem;
+        top: 5rem;
+   }
+
+   .transparent{
+
+        left: 13rem;
+        width: 15rem;
+        height: 36rem;
+        top: 5rem;
+   }
+}

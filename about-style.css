@@ -1,0 +1,160 @@
+body{
+
+    margin: 0;
+    width: 100vw;
+    height: 100hv;
+    padding: 0;
+    overflow:hidden;
+    
+
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a :hover{
+
+    color: gray;
+
+}
+
+#blue_background{
+ position: fixed;
+
+    
+}
+
+
+#typedtext{
+
+    height: 100vh;
+    width: 100vw;
+    
+    /*border: 2px solid red;*/
+    position: absolute;
+    
+    font-size: 1.4rem;
+    margin-top: 4rem;
+    margin-left: 21rem; 
+    color: white;
+    font-family: Goldman;
+    z-index: 1;
+    animation: move 1s forwards ;
+    animation-delay: 15s;
+    
+    
+}
+
+.gel{
+
+    width: 47rem;
+    height: 40rem;
+    /*border: 2px solid green;*/
+    position: absolute;
+    margin-left: 21rem;
+    margin-top: 4rem;
+    background-color: darkblue;
+    opacity: .5;
+    animation: move 1s forwards ;
+    animation-delay: 15s;
+    
+    
+    
+}
+
+.navbar{
+
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    font-family: Goldman;
+    font-size: 1.3rem;
+    background-color: black;
+    color: white;
+    height: 3rem;
+}
+
+.navbar-wrapper{
+
+    height: 3rem;
+    background-color: black;
+    border: 2px solid black;
+}
+
+.button{
+
+    position: absolute;
+    height: 5rem;
+    width: 20rem;
+    background-color: darkblue;
+    z-index: 1;
+    margin-left: 35rem;
+    margin-top: 18rem;
+    font-family: Goldman;
+    border-radius: 45%;
+    font-size: 1.5rem;
+    opacity: .90;
+    color:white;
+    animation: mymove 10s forwards, glowing 2000ms infinite;
+
+    
+
+}
+
+
+
+@keyframes move {
+
+    from {
+        margin-left: 35% ;
+        margin-top: 10%;
+    }
+
+    to {
+        margin-left: 0%;
+        margin-top: 0%;
+        width: 250px;
+        height: 350px;
+        font-size: 10px;
+    }
+}
+
+@keyframes glowing{
+
+    0%{
+        background-color: rgba(0,0,128, 0.30);
+        box-shadow: 0 0 3px #00FFFF;
+    }
+
+    50%{
+        background-color: rgba(0,0,128. 0.25);
+        box-shadow: 0 0 80px #000080;
+    }
+
+    100%{
+        background-color:  rgba(0,0,128, 0.30);
+        box-shadow: 0 0 80px #B20000;
+    }
+
+}
+
+@keyframes mymove{
+
+    from {
+        
+        top: 0px;
+        
+    }
+
+    to {
+
+      top: 300px;
+    }
+}
+
+
+    
+

@@ -1,0 +1,90 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    background-image: url("./assets/resume_background.jpg");
+    background-size: cover;
+    color: white;
+    font-family: Goldman;
+    overflow: hidden;
+    
+}
+
+a{
+    color: white;
+    
+    margin-left: 20rem;
+    margin-top: 10rem;
+    font-family: Goldman;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: gray;
+}
+
+
+.text-box{
+
+    height: 40rem;
+    width: 35rem;
+    
+    
+    margin-top: 10rem;
+    margin-left: 45rem;
+}
+
+.navbar-list{
+
+    
+    height: 2rem;
+    /*border: 2px solid red;*/
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    
+    font-size: 1.2rem;
+    
+}
+
+
+
+
+#resume-wrapper{
+ height: 100%;
+ width: 60rem;
+ margin-left: 30rem;
+ position: relative;
+ /*border: 2px solid red;*/
+
+}
+
+#overlay{
+
+    height: 250rem;
+    width: 60rem;
+    /*border: 2px solid red;*/
+    background-color: darkblue;
+    opacity: .4;
+    margin-left: 10rem;
+    position: absolute;
+}
+
+.button{
+
+    height: 2.5rem;
+    width: 10rem;
+    background-color: blue;
+    
+    z-index: 1;
+    color: white;
+    font-family: Goldman;
+    margin-top: 20rem;
+    margin-left: -20rem;
+    position: absolute;
+}
+
+
+
+    

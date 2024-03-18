@@ -1,0 +1,132 @@
+body{
+
+    margin: 0;
+    width: 100vw;
+    height: 100hv;
+    padding: 0;
+    overflow: hidden;
+}
+
+html{
+
+    font-size: 16px;
+}
+
+a{
+
+    text-align: none;
+    z-index: 3;
+}
+
+
+.background-video{
+
+    position: fixed;
+    z-index: -1;
+    
+    
+}
+
+.balls{
+
+    animation: fadeIn 7s forwards;
+    position: absolute;
+    z-index: 1;
+}
+
+.navbar-nav{
+
+    /*border: 2px solid green;*/
+    font-family: Goldman;
+    font-size: 1.3rem;
+    z-index: 3;
+    
+}
+
+.navbar-tc{
+
+    background-color: white;
+}
+
+.text{
+
+    color: white;
+    z-index: 5;
+
+}
+
+
+.m-4{
+
+    background-color:  rgb(25,25,75);
+    color: white;
+    font-family: Goldman;
+   /* border: 2px solid red;*/
+    position: absolute;
+    
+}
+
+@keyframes fadeIn{
+
+    0%{opacity :1;}
+    100%{opacity:0;}
+}
+
+.navbar-btn{
+
+    z-index: 5;
+    background-color: white;
+    
+    
+    
+}
+
+.name-box{
+
+    
+   /* border: 2px solid red;*/
+    
+    position: absolute;
+    color: white;
+
+}
+
+.container{
+
+    text-align: center;
+    height: 35rem;
+    width: 50rem;
+    margin-left: 40rem;
+    margin-top: 15rem;
+    position: absolute;
+    font-size: 60px;
+    font-family: Bruno Ace SC;
+   /* border: 2px yellow solid;*/
+    
+}
+ .name-box-container{
+
+    height: 20rem;
+    width: 50rem;
+    position: absolute;
+    border: 2px solid red;
+    margin-left: 33rem;
+    margin-top: 19rem;
+    font-family: Goldman;
+    font-size: 1.5rem;
+    color:white;
+    
+ }
+
+ .text-box{
+
+    font-size: 25px;
+    /*border: 2px blue solid;*/
+    margin-top: 190px;
+ }
+
+
+
+
+
+ 

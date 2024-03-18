@@ -88,17 +88,17 @@ a :hover{
 
     position: absolute;
     height: 5rem;
-    width: 20rem;
+    width: 10rem;
     background-color: darkblue;
-    z-index: 1;
-    margin-left: 35rem;
+    z-index: 2;
+    margin-left: 70rem;
     margin-top: 18rem;
     font-family: Goldman;
-    border-radius: 45%;
+    border-radius: 100%;
     font-size: 1.5rem;
-    opacity: .90;
+    opacity: .60;
     color:white;
-    animation: mymove 10s forwards, glowing 2000ms infinite;
+    /*animation: mymove 10s forwards, glowing 2000ms infinite;*/
 
     
 

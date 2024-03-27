@@ -1,6 +1,22 @@
 body{
     width: 100vw;
     height: 100vh;
+    background-image: url("./assets/starry-sky-2675322_1920.jpg");
+    background-size: cover;
+}
+
+.navbar-nav{
+
+    /*border: 2px solid green;*/
+    font-family: Goldman;
+    font-size: 1.3rem;
+    z-index: 3;
+    
+}
+
+.navbar-tc{
+
+    background-color: white;
 }
 
 #date{

@@ -20,7 +20,8 @@ body{
 }
 
 #date{
-
+    color: lightblue;
+    margin-left: 30rem;
 }
 
 .title-wrapper{

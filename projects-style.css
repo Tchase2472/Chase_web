@@ -122,7 +122,7 @@ div:after{
     padding: 1.5rem;
     
     position: absolute;
-    left: 18rem;
+    left: 32rem;
     top: 8rem;
     color: white;
     z-index: 1;
@@ -138,7 +138,7 @@ div:after{
     height: 30rem;
     /*border: 3px solid green;*/
     position: absolute;
-    left: 18rem;
+    left: 32rem;
     top: 7rem;
 
     background: red;
@@ -146,48 +146,4 @@ div:after{
     border-radius: 30px;
 }
 
-@media(max-width: 800px){
 
-   .circle{
-
-    margin-left: 2rem;
-
-   }
-  
-   .button-text{
-
-        left: -18.15rem;
-   }
-
-   .boids{
-
-        margin-left: -18rem;
-   }
-
-   .solarSystem{
-
-        margin-left: -18rem;
-   }
-
-   .LTree{
-
-        margin-left: -18rem;
-   }
-
-   .text{
-
-        left: 13rem;
-        width: 12rem;
-        height: 35rem;
-        font-size: 1rem;
-        top: 5rem;
-   }
-
-   .transparent{
-
-        left: 13rem;
-        width: 15rem;
-        height: 36rem;
-        top: 5rem;
-   }
-}

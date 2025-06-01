@@ -24,66 +24,54 @@ a:hover{
     color: gray;
 }
 
-
-.text-box{
-
-    height: 40rem;
-    width: 35rem;
-    
-    
-    margin-top: 10rem;
-    margin-left: 45rem;
-}
-
 .navbar-list{
 
     
     height: 2rem;
-    /*border: 2px solid red;*/
-    display: flex;
-    justify-content: left;
+   /* border: 2px solid red;*/
+    margin-left: -15rem;
+
     list-style: none;
     
     font-size: 1.2rem;
     
 }
 
-
-
-
-#resume-wrapper{
- height: 100%;
- width: 60rem;
- margin-left: 30rem;
- position: relative;
- /*border: 2px solid red;*/
-
-}
-
-#overlay{
+.overlay{
 
     height: 250rem;
     width: 60rem;
     /*border: 2px solid red;*/
     background-color: darkblue;
     opacity: .4;
-    margin-left: 12rem;
+    margin-left: 32rem;
     position: absolute;
+    z-index: -1;
+}
+
+.box1{
+    height: 3rem;
+    border: solid 2px red;
+    text-align: center;
+    margin-top: 50rem;
+    margin-left: 4rem;
+   
+
 }
 
 .button{
-
-    height: 2.5rem;
-    width: 10rem;
-    background-color: blue;
-    
-    z-index: 1;
+    height: 80px;
+    width: 80px;
+    background: red;
     color: white;
-    font-family: Goldman;
-    margin-top: 20rem;
-    margin-left: -20rem;
-    position: absolute;
+    border-radius: 50%;
+     box-shadow: 2px 2px black;
+     font-family: Goldman;
 }
+    
+
+
+
 
 
 

@@ -38,7 +38,7 @@ a :hover{
     
     font-size: 1.4rem;
     margin-top: 4rem;
-    margin-left: 21rem; 
+    margin-left: 35rem; 
     color: white;
     font-family: Goldman;
     z-index: 1;
@@ -54,7 +54,7 @@ a :hover{
     height: 40rem;
     /*border: 2px solid green;*/
     position: absolute;
-    margin-left: 21rem;
+    margin-left: 35rem;
     margin-top: 4rem;
     background-color: darkblue;
     opacity: .5;
@@ -91,8 +91,8 @@ a :hover{
     width: 10rem;
     background-color: darkblue;
     z-index: 2;
-    margin-left: 70rem;
-    margin-top: 18rem;
+    margin-left: 55rem;
+    margin-top: 50rem;
     font-family: Goldman;
     border-radius: 100%;
     font-size: 1.5rem;

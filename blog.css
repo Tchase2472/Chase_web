@@ -7,10 +7,12 @@ body{
 
 .navbar-nav{
 
-    /*border: 2px solid green;*/
+   /* border: 2px solid green; */
     font-family: Goldman;
     font-size: 1.3rem;
     z-index: 3;
+    position:fixed;
+    margin-left: 2rem;
     
 }
 

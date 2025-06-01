@@ -50,14 +50,15 @@ a:hover{
 }
 
 .box1{
-    height: 3rem;
+    
     border: solid 2px red;
     text-align: center;
-    margin-top: 50rem;
-    margin-left: 4rem;
-   
+    margin-top: 5rem;
+    margin-left: 6rem;
+ }
 
-}
+
+
 
 .button{
     height: 80px;

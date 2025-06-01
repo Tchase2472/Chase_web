@@ -6,7 +6,7 @@ body{
     background-size: cover;
     color: white;
     font-family: Goldman;
-    overflow: hidden;
+    
     
 }
 
@@ -50,12 +50,8 @@ a:hover{
 }
 
 .box1{
-    
-    border: solid 2px red;
-    text-align: center;
-    margin-top: 5rem;
-    margin-left: 6rem;
- }
+    margin-left: 37rem;
+}
 
 
 

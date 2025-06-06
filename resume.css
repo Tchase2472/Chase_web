@@ -29,30 +29,33 @@ a:hover{
 
     
     height: 2rem;
-   /* border: 2px solid red;*/
-    margin-left: -15rem;
+    
+    
+    margin-left: -20rem;
 
     list-style: none;
     
     font-size: 1.2rem;
-    position:fixed;
+    display: flex;
+    justify-content: flex-start;
     
 }
 
-.overlay{
-
-    height: 250rem;
-    width: 60rem;
-    /*border: 2px solid red;*/
-    background-color: darkblue;
-    opacity: .4;
-    margin-left: 32rem;
-    position: absolute;
-    z-index: -1;
+.list-item{
+    
 }
 
-.box1{
-    margin-left: 37rem;
+
+
+
+.resume-container{
+margin-top: 5em;
+margin-left: 40em;      
+}
+
+.resume-container img{
+    
+    width: 50em;
 }
 
 
@@ -66,6 +69,23 @@ a:hover{
     border-radius: 50%;
      box-shadow: 2px 2px black;
      font-family: Goldman;
+}
+
+@media screen and (max-width: 700px){
+    .resume-container{
+        margin-left: 2em;
+        margin-top: -7em;
+    }
+
+    .resume-container img {
+        width: 30em;
+        margin-top: 10em;
+        margin-left: 0em;
+    }
+
+    .navbar-list{
+        font-size: 1em;
+    }
 }
     
 

@@ -42,8 +42,52 @@ a :hover{
     
 }
 
-.test{
-   
+#typedtext{
+   color: white;
+   margin-left: 30rem;
+   margin-top: 5rem;
+   font-size: 1.5em;
+   font-family: Goldman;
+}
+
+.button-wrapper{
+    margin-left: 50em;
+    margin-top: 2em;
+    
+}
+
+.the-button{
+    height: 40px;
+    width:70px;
+}
+
+.fade-in-element{
+    opacity: 0;
+    animation: fadeIn 4s ease-in forwards;
+    animation-delay: 10s;
+}
+
+@keyframes fadeIn{
+    from {opacity:0;}
+    to {opacity:1;}
+}
+
+
+@media only screen and (max-width: 1281px){
+    #typedtext{
+        margin-left: 2em;
+        margin-top: 5rem;
+        font-size: 1em;
+    }
+
+    .button-wrapper{
+        margin-left: 10em;
+    }
+
+    .the-button{
+        height: 20px;
+        width: 70px;
+    }
 }
 
 

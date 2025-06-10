@@ -71,7 +71,7 @@ margin-left: 40em;
      font-family: Goldman;
 }
 
-@media screen and (max-width: 650px){
+@media (max-width: 650px) and (max-width: 900px){
     .resume-container{
         margin-left: 2em;
         margin-top: -7em;
